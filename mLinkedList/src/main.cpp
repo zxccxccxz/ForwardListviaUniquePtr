@@ -41,7 +41,7 @@ int main() {
 
 	ll.emplace_front(1, 'a');
 	ll.emplace_front(2, 'b');
-	// ll.pop_fornt();
+	// ll.pop_front();
 	ll.emplace_front(3, 'c');
 	// ll.print();
 
