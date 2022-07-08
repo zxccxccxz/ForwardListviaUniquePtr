@@ -48,7 +48,7 @@ public:
 
 	void push_front(T&& data);
 
-	void pop_fornt();
+	void pop_front();
 
 	void print() const;
 
