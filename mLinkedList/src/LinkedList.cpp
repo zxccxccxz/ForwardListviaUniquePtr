@@ -29,7 +29,7 @@ void LinkedList<T>::push_front(T&& data) {
 }
 
 template <class T>
-void LinkedList<T>::pop_fornt() {
+void LinkedList<T>::pop_front() {
 	if (!head_)
 		return;
 	std::unique_ptr<Node> tmp(std::move(head_.get()->next_));
